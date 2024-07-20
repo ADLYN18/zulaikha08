@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <style>
+         /* MENU */
+         .menu ul {
+            list-style-type: none;
+            background-color:bisque;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .menu li {
+            float: left;
+        }
+        .menu a {
+            text-decoration: none;
+            color: black;
+            padding: 20px;
+            display: block;
+        }
+        .menu a:hover {
+            color: white;
+            font-weight: bold;
+        }
+        /* CONTENT */
+        .table {
+        border: 1px solid rgb(21, 21, 21);
+        border-collapse: collapse;
+        }
+        th, td {
+            background-color: rgb(175, 164, 143);
+        }
+         /* FOOTER */
+         .kaki {
+            background-color:bisque;
+            color:black;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <!-- HEADER -->
+        <div class="h1">
+            <img src="florist.co.png" width="1500px"  height="300px">
+        </div>
+        <!-- MENU -->
+        <div class="menu">
+            <ul>
+                <li><a href="utama.html">Laman Utama</a></li>
+                <li><a href="jenis.html">Jenis Bunga</a></li>
+                <li><a href="laporan.html">Laporan</a></li>
+            </ul>
+          </div>
+          <br>
+        <!-- CONTENT -->
+        <center>
+            <div class="content">
+               <form>
+                   <table>
+                       <tr>
+                    <td>
+                   Name :
+               </td>
+               <td>
+                   <input type="text" id="Name" name="Name">
+                    </td>
+                     </tr>
+                    <tr>
+                    <td>
+                   Alamat :
+                </td>
+                <td>
+                   <input type="text" id="Alamat" name="Alamat">
+                   </td>
+                    </tr>                
+                   <tr>
+                   <td>
+                   Tarikh pesanan : 
+               </td>
+               <td>
+                   <input type="date" id="birthday" name="birthday">
+                   </td>
+                    </tr>
+                   <tr>
+                   <td>
+                   Jenis Bunga :
+               </td>
+               <td>
+                   <select name="Pilih Jenis Bunga">
+                    <option value="Pilih">Pilih</option>
+                       <option value="bunga_mawar">bunga_mawar</option>
+                       <option value="bunga_daisy">bunga_daisy</option>
+                       <option value="bunga_matahari">bunga_matahari</option>
+                       <option value="bunga_orkid">bunga_orkid</option>
+                       <option value="bunga_tulip">bunga_tulip</option>
+                       <option value="baby's breath">baby's breath</option>
+                       <option value="lain-lain">lain-lain</option>
+                   </select>
+                   </td>
+                    </tr>
+                   <tr>
+                   <td>
+                   Hiasan Yang Ingin Ditambah :
+               </td>
+               <td>
+                   <textarea name="message" rows="10" cols="30"></textarea>
+                   </td>
+                    </tr>
+                   </table>
+                   <br>
+                   <input type="submit" value="HANTAR">
+                   <input type="reset" value="SEMULA"><br>
+               </form>
+        </center>
+    </div>
+    <br>
+     <!-- FOOTER -->
+     <div class="kaki">
+        <font>Copyright &copy; Melor Gubahan Bunga, 2024</font>
+    </div>
+    </body>
+</head>
+</html>
